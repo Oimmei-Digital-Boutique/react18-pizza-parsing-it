@@ -4,7 +4,7 @@ import Qs from 'qs';
 import {Pizza, pizzaSchema} from '../models/Pizza';
 
 // La pizza che ci si aspetta di ricevere dalla query string.
-const pizzaToRead = {
+const pizzaToRead: Pizza = {
   id: 1,
   name: 'Margherita',
   description: 'La classica!',
