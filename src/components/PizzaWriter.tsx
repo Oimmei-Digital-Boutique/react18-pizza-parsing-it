@@ -3,7 +3,7 @@ import {useSearchParams} from 'react-router-dom';
 import Qs from 'qs';
 import {Pizza} from '../models/Pizza';
 
-// La nostra pizza, serializzata per la query string.
+// La nostra pizza, da salvare in query string.
 const pizzaToWrite: Pizza = {
   id: 1,
   name: 'Margherita',

@@ -7,3 +7,5 @@ Per avviare il progetto, occorre installare le dipendenze con questo comando.
 ### `npm install`
 
 In seguito, è possibile lanciarlo in debug con questo comando.
+
+### `npm start`
